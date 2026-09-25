@@ -3,7 +3,7 @@
 from pymongo import MongoClient
 from pymongo.database import Database
 
-from app.config import settings
+from Project.app.config import settings
 
 # MongoClient manages a pool of connections to the MongoDB server and is thread-safe.
 client : MongoClient = MongoClient(settings.MONGO_URI)

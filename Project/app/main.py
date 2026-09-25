@@ -1,8 +1,8 @@
 # This file is the "entry point" of the application
 from fastapi import FastAPI
 
-from app.config import settings
-from app.database import ping_database
+from Project.app.config import settings
+from Project.app.database import ping_database
 from app.routers import users
 from app.routers import categories
 from app.routers import tickets
