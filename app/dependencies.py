@@ -1,5 +1,5 @@
 #   Defines reusable FastAPI dependencies (functions used with Depends()).
-#   Routers will import these instead of talking to app/database.py directly
+#   Routers will import these instead of talking to app/database.py directly.
 from pymongo.collection import Collection
 from pymongo.database import Database
 from fastapi import Depends
